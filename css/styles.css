@@ -357,27 +357,10 @@ footer {
 }
 
 .footer {
+    background-color: var(--title-text-color);
     padding-top: 100px;
+    padding-bottom: 100px;
 }
-
-.logo-footer {
-    color: var(--accent-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.logo-footer:hover,
-.logo-footer:focus {
-    color: var(--accent-color);
-}
-
 
 .logo-span-footer {
     color: var(--white-milk-color);
@@ -400,4 +383,23 @@ footer {
     font-size: 16px;
     line-height: 1.2;
     width: 264px;
+}
+
+
+.logo-footer {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--accent-color);
 }
